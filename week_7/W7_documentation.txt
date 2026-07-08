@@ -1,0 +1,3 @@
+“The bug is that the program tried to format a string using :.2f, which caused a TypeError.
+
+ We fixed it by checking if the returned value is a string before formatting it.”
